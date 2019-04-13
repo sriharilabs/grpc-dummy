@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package my.sriharilabs;
+
+option java_package = "io.sriharilabs";
+
+option java_multiple_files = true;
+
+message DummyMessage {}
+
+service DummyService {}
